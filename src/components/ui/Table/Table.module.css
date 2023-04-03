@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+tr {
+    cursor: pointer;
+}
+
+tr:nth-child(2n) {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+tr:hover {
+    background-color: rgba(128, 128, 128, 0.3);
+}
